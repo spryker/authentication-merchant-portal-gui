@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { ButtonComponent, ButtonModule } from '@spryker/button';
 import { FormItemComponent, FormItemModule } from '@spryker/form-item';
 import { InputComponent, InputModule } from '@spryker/input';
@@ -10,7 +9,6 @@ import { LoginModule } from './login/login.module';
 
 @NgModule({
     imports: [
-        BrowserModule,
         ButtonModule,
         FormItemModule,
         InputModule,
@@ -18,7 +16,7 @@ import { LoginModule } from './login/login.module';
     ],
     providers: [],
 })
-export class AppModule extends CustomElementModule {
+export class ComponentsModule extends CustomElementModule {
     protected components = [
         {
             selector: 'spy-button',
