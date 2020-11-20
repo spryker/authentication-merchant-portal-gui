@@ -4,6 +4,8 @@
 
 AuthenticationMerchantPortalGui module provides login page for merchant users.
 
+**DEPRECATED - This module is not continued at this point.**
+
 ## Installation
 
 ```
