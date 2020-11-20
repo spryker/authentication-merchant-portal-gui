@@ -32,5 +32,6 @@
   },
   "config": {
     "sort-packages": true
-  }
+  },
+  "abandoned": "spryker/security-merchant-portal-gui"
 }
